@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>salt'n papper</title>
+    <link rel="stylesheet" href="salt'n paper style.css">
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAlJicR0yu1mMiy8mCwZMkOsR249BqW6ZwRdJQj-uJhn9cY4asZK8rj2ztuAelKeQ0GiE&usqp=CAU"
+        type="image/x-icon">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Bebas+Neue&family=Lobster&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barrio&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lobster&family=Nanum+Gothic&family=Roboto_old:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barrio&family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lobster&family=Nanum+Gothic&family=Poetsen+One&family=Roboto_old:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barrio&family=Bebas+Neue&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Lobster&family=Nanum+Gothic&family=Poetsen+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-black">
+    <!--navbar starting-->
+    <nav class="h-24 w-99% bg-black flex flex-row">
+        <div>
+            <h1 id="navbar" class="text-white mt-7 font-bold text-4xl ml-9 ">Salt'n Pepper</h1>
+        </div>
+
+        <div class=" text-white flex flex-row ml-40 [-mr-40] gap-16 mt-8">
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Publications</p>
+            <p>Feedback</p>
+        </div>
+
+        <div class="flex flex-row ml-40">
+            <button id="button1" class=" text-white mx-10 my-5 h-14 w-32 rounded-3xl">
+                <p>get a franchise</p>
+            </button>
+            <button class="bg-red-600 h-14 w-32 mt-5 gap-none rounded-3xl ">
+                <p class="text-white">Order Online</p>
+            </button>
+        </div>
+    </nav>
+    <!--navbar ending-->
+
+    <!--image slider start-->
+    <div id="gallery" class="relative w-full" data-carousel="slide">
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://static.tossdown.com/images/9291d42d-3c8b-4c82-a9bb-fef5f9802269.webp"
+                    class=" w-full h-full absolute  block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="https://static.tossdown.com/images/cb3c2d22-7957-4c35-a140-367b8464f7a3.webp"
+                    class=" w-full h-96 absolute  block -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://static.tossdown.com/images/d47575d1-42d9-43f7-84b2-f11adea5f8eb.webp"
+                    class="absolute block w-full h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG0uA7rWfsqSk3klc48246c4li6R3XcCWmzw&s"
+                    class="absolute block w-full h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ81JizKTZnYOB0PX84rxCfDQwnyVkwVtWZZbnoK8Bgv-kU39syu9oeAA6XSywuDQ8-ois&usqp=CAU"
+                    class="absolute block w-full h-96 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
+            </div>
+        </div>
+        <!-- Slider controls -->
+        <button type="button"
+            class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-prev>
+            <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M5 1 1 5l4 4" />
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button"
+            class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+            data-carousel-next>
+            <span
+                class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="m1 9 4-4-4-4" />
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+    </div>
+    <!--image slider end-->
+
+    <!--1st work start-->
+    <div>
+        <h2 class="text-white text-center text-4xl mt-20"><span id="font1" class="text-3xl">Welcome to</span> <span
+                id="font2" class="text-6xl">Salt'n Papper<br /></span> <span class="text-3xl">Restaurants! Our
+                Brands</span></h2>
+        <p id="para1">Please click our brands below for further information, reservations or to order online!</p>
+    </div>
+    <div class="flex flex-row items-center justify-center gap-20 ">
+        <img width="200px" height="50px" class="rounded-3xl"
+            src="https://vectorseek.com/wp-content/uploads/2020/12/Saltn-Pepper-Logo-Vector-scaled.jpg" alt="">
+        <img width="200px" height="50px" class="rounded-3xl"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSStoAVQMHZlEIbLd1Ao3rOcen_2zLok0qUrmB5Jmv4lt8rIZvdvCgZ6pe6sYMsqcsywec&usqp=CAU"
+            alt="">
+        <img width="200px" height="50px" class="rounded-3xl"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXQdRXf7f0NDdc7TPXuiom6Po2nKPz1LDeRw&s">
+    </div>
+    <div>
+        <button id="button2">
+            <p class="text-white">Order Now</p>
+        </button>
+        <button id="button2">
+            <p class="text-white">Order Now</p>
+        </button>
+        <button id="button2">
+            <p class="text-white">Reserve a Table</p>
+        </button>
+    </div>
+    <!--1st work end-->
+
+    <!--2nd work start-->
+    <h1 class="text-white text-center text-4xl mt-52"><span id="font4" class="text-white text-5xl">Salt,n
+            papper<br /></span> <span class="text-4xl font-extrabold">Restaurant Franchises</span></h1>
+    <p class="text-white text-center mt-6 tracking-wider">Each of our franchises are individually managed. For further
+        details, kindly contact them directly.</p>
+    <div class="text-white">
+        <h4 class="mt-20 ml-28"><img class="mr-56 h-72"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEDqEVThCjIjYGPCfxd5dQH-u3rSLBJuo33w&s"
+                align="right">Islamabad</h4>
+        <h1 id="" class="text-3xl ml-28 mt-2"><span id="font5">Salt,n Papper</span> Restaurant</h1>
+        <p class="flex flex-row pt-7"><img class="ml-24 mt-6" width="40px" height="40px"
+                src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+            55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+        <p class="flex flex-row text-green-600"><img class="ml-24 mt-6" width="40px" height="40px"
+                src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+            051-2604904-6</p>
+        <button class="ml-24 mt-4" id="button3">Get direction</button>
+    </div>
+
+    <div>
+        <h4 class="mt-20 mr-11 pr-11 gap-11"><img class="ml-20 h-72 gap-14"
+                src="https://moizali125.github.io/Salt-n-Pepper/images/11771dbf-36a1-4684-a55e-18af61e0f77c.webp"
+                align="left">Faislabad</h4>
+        <h1 id="" class="text-3xl ml-28 mt-2 text-white"><span id="font6">Salt,n Papper</span> Restaurant</h1>
+        <p class="flex flex-row pt-7 text-white"><img class="ml-24 mt-6" width="40px" height="40px"
+                src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+            55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+        <p class="flex flex-row text-green-600"><img class="ml-24 mt-6" width="40px" height="40px"
+                src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+            051-2604904-6</p>
+        <button class="ml-24 mt-4" id="button3">Get direction</button>
+    </div>
+
+    <div>
+        <h4 class="mt-20 ml-28"><img class="mr-24 h-80"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkKBi9cubs6TZKYJTTSZ1JOxt9phXliDTBqg&s"
+                align="right">Faislabad</h4>
+        <h1 id="" class="text-3xl ml-28 mt-2 text-white"><span id="font6">Salt,n Papper</span> Restaurant</h1>
+        <p class="flex flex-row pt-7 text-white"><img class="ml-24 mt-6" width="40px" height="40px"
+                src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+            55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+        <p class="flex flex-row text-green-600"><img class="ml-24 mt-6" width="60px" height="60px"
+                src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+            051-2604904-6</p>
+        <button class="ml-24 mt-4" id="button3">Get direction</button>
+    </div>
+    <!--2nd work end-->
+
+    <!--3th work start-->
+    <h1 class="text-3xl text-center mt-40 text-white"><span id="font7" class="text-5xl">Salt'n Papper</span><br /><span
+            id="font8" class="text-2xl">Express Franchises</span></h1>
+
+    <div class="flex flex-row justify-around mt-8">
+
+        <div class="flex flex-col">
+            <img class="h-72"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS52Ye5x-fs967ZuAxpZwQddD6YSI948PZkVg&s"
+                alt="">
+            <h6 class="mt-4 ml-14">EMPORIUM MALL</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+
+        <div>
+            <img class="h-72" src="https://static.tossdown.com/images/9f2b5abf-88a1-4f49-9f98-c3dfee664e40.webp" alt="">
+            <h6 class="mt-4 ml-28">GUJRANWALA</h6>
+            <h3 class="ml-14 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-24" id="button3">Get direction</button>
+        </div>
+
+        <div>
+            <img class="h-72" src="https://static.tossdown.com/images/0f3ddba0-18a0-450e-af77-188aeb795934.webp" alt="">
+            <h6 class="mt-4 ml-32">SARGODHA</h6>
+            <h3 class="ml-14 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-24" id="button3">Get direction</button>
+        </div>
+    </div>
+
+    <div class="flex flex-row justify-around mt-8">
+        <div class="flex flex-col">
+            <img class="h-72" src="https://static.tossdown.com/images/171bb884-f60a-4d94-a0b9-78204522564e.webp" alt="">
+            <h6 class="mt-4 ml-32">JHELUM</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+
+        <div class="flex flex-col">
+            <img class="h-72"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3KWZ56oLRxHuOnBTIcAiV4O4eyKDTTw44g&s"
+                alt="">
+            <h6 class="mt-4 ml-24">FAISAL TOWN</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+
+
+        <div class="flex flex-col">
+            <img class="h-72"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKPLtmTvCo7d9lhRItVKJXz7n9QABn0llqmg&s"
+                alt="">
+            <h6 class="mt-4 ml-40">DHA</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+    </div>
+
+    <div class="flex flex-row justify-around mt-8">
+        <div class="flex flex-col">
+            <img class="h-72"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNRCdjYT1LLQF-H7YB19Z0kfb8iiw9BdSmkw&s"
+                alt="">
+            <h6 class="mt-4 ml-40">BAHRIA TOWN</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+
+        <div class="flex flex-col">
+            <img class="h-72" src="https://static.tossdown.com/images/a860f757-114b-4453-ba86-f7b24dc0f24e.webp" alt="">
+            <h6 class="mt-4 ml-40">GUJAR KHAN</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+
+        <div class="flex flex-col">
+            <img class="h-72 w-96"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuIqoZBmiAmCEOwwX0LkieQm4dMGBKQmp5Yg&s"
+                alt="">
+            <h6 class="mt-4 ml-40">LAHORE</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+    </div>
+
+    <div class="flex flex-row justify-evenly mt-8">
+        <div class="flex flex-col">
+            <img class="h-80 w-11/12" src="https://static.tossdown.com/images/bbac9f4a-2970-4bc4-b8a1-541857d96e79.webp"
+                alt="">
+            <h6 class="mt-4 ml-40">GUJRAT</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+
+        <div class="flex flex-col">
+            <img class="h-80 w-10/12"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT4adLtKEeW8i8CnxbbflT_muWZcxq8Km1Hg&s"
+                alt="">
+            <h6 class="mt-4 ml-40">SAHIWAL</h6>
+            <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Express</h3>
+            <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+                55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+                    src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+                051-2604904-6</p>
+            <button class="ml-16" id="button3">Get direction</button>
+        </div>
+    </div>
+    <!--3th work end-->
+
+    <!--4th work start-->
+    <h1 class="text-3xl text-center mt-36 text-white"><span id="font7" class="text-6xl">Salt'n Papper</span><br /><span
+            id="font8" class="text-3xl">village Franchises</span></h1>
+    <h4 class="mt-24"><img class="pr-9 -mt-10"
+            src="https://i.ytimg.com/vi/auj4uHQ4hxI/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCqxvOLNW1k-JO1N1LqPIfwZHm8og"
+            align="left">GUJRANWALA</h4>
+    <h3 class="ml-6 text-white  text-3xl"><span id="font9">Salt,n Papper</span> Village</h3>
+    <p class="text-white"><img class="ml-2 mt-6" width="40px" height="40px"
+            src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png">Plot#
+        55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+    <p class="text-green-700 flex mt-5 ml-10 underline"><img class="" width="60px" height="60px"
+            src="https://www.freeiconspng.com/thumbs/phone-icon/phone-icon-png--clipart-best-17.png" alt="">ph:
+        051-2604904-6</p>
+    <button class="mt-9 bg-green-500" id="button3">Get direction</button>
+    <!--4th work end-->
+
+    <!--5th work start-->
+    <h1 class="text-white text-center text-4-xl mt-52"><span id="font4" class="text-white text-5xl">Salt,n
+            papper<br /></span> <span class="text-4xl font-extrabold">Express Franchises</span> (Opening Soon)</h1>
+    <div class="flex flex-row gap-6 ml-12">
+        <div class="bg-white h-[260px] w-[400px] mt-12">
+            <img class="h-20 w-20 ml-[140px] mt-3"
+                src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                alt="">
+            <h4 class="ml-[70px] mt-2">Opening Soon</h4>
+            <h3 class="font-medium text-xl mt-4 ml-14"><span id="font10">Salt'n Pepper Express</span><br /><span
+                    class="ml-14">Al-Jalil Garden</span><br /><span class="ml-20">Sadhoke</span></h3>
+        </div>
+
+        <div class="bg-white h-[260px] w-[400px] mt-12">
+            <img class="h-20 w-20 ml-[140px] mt-3"
+                src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                alt="">
+            <h4 class="ml-[70px] mt-2">Opening Soon</h4>
+            <h3 class="font-medium text-xl mt-4 ml-14"><span id="font10">Salt'n Pepper Express</span><br /><span
+                    class="ml-14">Al-Jalil Garden</span><br /><span class="ml-20">Sadhoke</span></h3>
+        </div>
+
+        <div class="bg-white h-[260px] w-[400px] mt-12">
+            <img class="h-20 w-20 ml-[140px] mt-3"
+                src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                alt="">
+            <h4 class="ml-[70px] mt-2">Opening Soon</h4>
+            <h3 class="font-medium text-xl mt-4 ml-14"><span id="font10">Salt'n Pepper Express</span><br /><span
+                    class="ml-14">Al-Jalil Garden</span><br /><span class="ml-20">Sadhoke</span></h3>
+        </div>
+    </div>
+
+    <div class="flex flex-row gap-6 mt-2 ml-12">
+        <div class="flex flex-row gap-6">
+            <div class="bg-white h-[260px] w-[400px] mt-12">
+                <img class="h-20 w-20 ml-[140px] mt-3"
+                    src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                    alt="">
+                <h4 class="ml-[70px] mt-2">Opening Soon</h4>
+                <h3 class="font-medium text-xl mt-4 ml-14"><span id="font10">Salt'n Pepper Express</span><br /><span
+                        class="ml-14">Al-Jalil Garden</span><br /><span class="ml-20">Sadhoke</span></h3>
+            </div>
+
+            <div class="flex flex-row gap-6">
+                <div class="bg-white h-[260px] w-[400px] mt-12">
+                    <img class="h-20 w-20 ml-[140px] mt-3"
+                        src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                        alt="">
+                    <h4 class="ml-[70px] mt-2">Opening Soon</h4>
+                    <h3 class="font-medium text-xl mt-4 ml-14"><span id="font10">Salt'n Pepper Express</span><br /><span
+                            class="ml-14">Al-Jalil Garden</span><br /><span class="ml-20">Sadhoke</span></h3>
+                </div>
+
+                <div class="flex flex-row gap-6">
+                    <div class="bg-white h-[260px] w-[400px] mt-12">
+                        <img class="h-20 w-20 ml-[140px] mt-3"
+                            src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                            alt="">
+                        <h4 class="ml-[70px] mt-2">Opening Soon</h4>
+                        <h3 class="font-medium text-xl mt-4 ml-14"><span id="font10">Salt'n Pepper
+                                Express</span><br /><span class="ml-14">Al-Jalil Garden</span><br /><span
+                                class="ml-20">Sadhoke</span></h3>
+                    </div>
+                </div>
+
+                <div class="flex flex-row mt-[290px] -ml-1 absolute">
+                    <div class="flex flex-row gap-6">
+                        <div class="bg-white h-[260px] w-[400px] mt-12">
+                            <img class="h-20 w-20 ml-[140px] mt-3"
+                                src="https://png.pngtree.com/png-vector/20230413/ourmid/pngtree-3d-location-icon-clipart-in-transparent-background-vector-png-image_6704161.png"
+                                alt="">
+                            <h4 class="ml-[70px] mt-2">Opening Soon</h4>
+                            <h3 class="font-medium text-xl mt-4 ml-14"><span id="font10">Salt'n Pepper
+                                    Express</span><br /><span class="ml-14">Al-Jalil Garden</span><br /><span
+                                    class="ml-20">Sadhoke</span></h3>
+                        </div>
+                    </div>
+                    <!--5th work end-->
+
+                    <!--6th work start-->
+                    <h3 id="font11" class="text-white mt-96 -ml-[380px] text-2xl">Social Feed</h3>
+
+                    <div class="flex flex-row gap-5 -ml-[610px]">
+                        <img class="mt-[470px] h-[270px] w-[240px]"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbKcvTSWv4j2XZNnvGdGqzkCqfs9FzOPnhw&s"
+                            alt="">
+                        <img class="mt-[470px] h-[270px] w-[240px]"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSbKcvTSWv4j2XZNnvGdGqzkCqfs9FzOPnhw&s"
+                            alt="">
+                        <img class="mt-[470px] h-[270px] w-[240px]"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5GEM-xoLo041Ym_u_w_11FKOcLUq4WFrMXw&s"
+                            alt="">
+                        <img class="mt-[470px] h-[270px] w-[240px]"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3RBqdbjyQYzXXJZR5wG2s8JRwANcgxlfyyA&s"
+                            alt="">
+                        <img class="mt-[470px] h-[270px] w-[240px]"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXIRrqlwGAvjyb4KDfky210plNZtfUd_9OGg&s"
+                            alt="">
+
+                    </div>
+                    <!--6th work end-->
+
+
+
+                    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+</body>
+
+</html>

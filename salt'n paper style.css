@@ -1,0 +1,90 @@
+#navbar{
+    font-family: "Lobster", sans-serif;
+}
+#button1{
+    border: solid white 1px;
+}
+#font1{
+    font-family: "Nanum Gothic", sans-serif;
+}
+#font2{
+    font-family: "Poetsen One", sans-serif;
+}
+#para1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+}
+#button2{
+    color: white;
+    height: 48px;
+    width: 160px;
+    margin-left: 320px;
+    margin-right: -200px;
+    margin-top: 30px;
+    border-radius: 90px;
+    border: solid white 1px;
+}
+#font4{
+    font-family: "Poetsen One", sans-serif;
+}
+h4{
+    font-family: 'apercu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    display: block;
+}
+#font5{
+    font-family: "Poetsen One", sans-serif;
+}
+#button3{
+    color: white;
+    height: 48px;
+    width: 160px;
+    border-radius: 90px;
+    border: solid white 1px;
+}
+#font6{
+    font-family: "Poetsen One", sans-serif;
+}
+#font7{
+    font-family: "Poetsen One", sans-serif;
+}
+#font8{
+    font-family: "Poetsen One", sans-serif; 
+}
+h6{
+    font-family: 'apercu';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    display: block;
+}
+#font9{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 35px;
+    padding-top: 40px;
+}
+#font10{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 25px;
+
+}
+#font11{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 30px;
+
+}
